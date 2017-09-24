@@ -1,0 +1,24 @@
+{
+  "name": "dev-workshop-f17-starter-code",
+  "version": "1.0.0",
+  "description": "Developer Workshop Fall 2017",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornell-dti/-Dev-Workshop-F17-Starter-Code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cornell-dti/-Dev-Workshop-F17-Starter-Code/issues"
+  },
+  "homepage": "https://github.com/cornell-dti/-Dev-Workshop-F17-Starter-Code#readme"
+}
