@@ -4,7 +4,9 @@
   "description": "Developer Workshop Fall 2017",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "node-sass": "^4.5.3",
+    "request": "^2.81.0"
   },
   "devDependencies": {},
   "scripts": {
