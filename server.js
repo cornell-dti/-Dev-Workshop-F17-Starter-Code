@@ -1,14 +1,11 @@
 const express = require('express');
 const app = express();
-var request = require('request');
+const request = require('request');
+
+app.use("/", express.static("public"));
 
 // TODO: Change the constant below to be your NetID!
 const netid = "your-netid-here";
-
-app.get('/', function (req, res) {
-  // TODO(shea): render the HTML here
-  res.send('Hello World!');
-});
 
 // TODO: Implement your API endpoints here! We've started you off with an example...
 
